@@ -2,7 +2,7 @@ import MenuMobile from "../components/MenuMobile";
 
 function Header() {
   return (
-    <header className="bg-[url(/images/mobile/image-header.jpg)] bg-no-repeat bg-[center_-20rem] p-5 h-[50rem]">
+    <header className="bg-[url(/images/mobile/image-header.jpg)] bg-no-repeat bg-[center_-17rem] p-5 h-[50rem]">
       <div className="flex justify-between">
         <img src="/images/logo.svg" alt=" imagen logo" />
         <MenuMobile />
@@ -14,7 +14,7 @@ function Header() {
         <img
           src="/images/icon-arrow-down.svg"
           alt="imagen flecha"
-          className="mt-15 h-50"
+          className="mt-25 h-50"
         />
       </div>
     </header>
