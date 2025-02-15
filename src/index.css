@@ -21,23 +21,13 @@
 
   --font-display: "Barlow", serif;
   --font-body: "Fraunces", serif;
+
+  /* break */
+
+  --breakpoint-3xl: 120rem;
 }
 
 @layer components {
-  .btn-primary {
-    padding: 10px;
-    background-color: var(--color-White);
-    color: var(--color-DarkDesaturatedCyan);
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 0.5rem;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    &:hover {
-      background-color: var(--color-sky-200);
-    }
-  }
-
   .btn {
     padding: 10px;
     font-family: var(--font-body);

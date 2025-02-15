@@ -3,7 +3,7 @@ import Hero from "../Hero/Hero";
 
 function Frutas() {
   return (
-    <section className="">
+    <section className="3xl:px-57">
       <div>
         <FrutsDescription />
       </div>

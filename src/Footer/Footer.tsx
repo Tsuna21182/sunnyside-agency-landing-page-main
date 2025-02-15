@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import NavFooter from "./NavFooter";
 
 function Footer() {
   return (
@@ -7,9 +7,9 @@ function Footer() {
         <h2 className=" text-2xl font-display font-black flex flex-col text-center opacity-50">
           sunnyside
         </h2>
-        <NavBar />
+        <NavFooter />
       </div>
-      <div className="flex justify-center items-center gap-5 py-20">
+      <div className="flex justify-center items-center gap-8 pb-20">
         <a href="#">
           <img
             src="/images/icon-facebook.svg"

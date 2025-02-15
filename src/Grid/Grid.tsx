@@ -1,6 +1,6 @@
 function Grid() {
   return (
-    <section className="grid grid-cols-2 mt-15">
+    <section className="grid grid-cols-2 xl:grid-cols-4 mt-15">
       <div>
         <img
           src="/images/mobile/image-gallery-milkbottles.jpg"
